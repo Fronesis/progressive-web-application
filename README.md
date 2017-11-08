@@ -1,6 +1,6 @@
-# progressive-web-application
+# cropchat
 
-> A progressive web application with Vue.js, Webpack & Material Design
+> A cat pictures messaging application
 
 ## Build Setup
 

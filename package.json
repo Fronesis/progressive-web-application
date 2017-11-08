@@ -1,8 +1,8 @@
 {
-  "name": "progressive-web-application",
+  "name": "cropchat",
   "version": "1.0.0",
-  "description": "A progressive web application with Vue.js, Webpack & Material Design",
-  "author": "JavierO <javier.bernaldez@gmail.com>",
+  "description": "A cat pictures messaging application",
+  "author": "Charles BOCHET <charlesb@theodo.fr>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -13,10 +13,16 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
+    "firebase": "^4.6.0",
+    "image-capture": "^0.3.5",
+    "lodash": "^4.17.4",
     "material-design-lite": "^1.3.0",
     "vue": "^2.3.3",
+    "vue-analytics": "^5.2.1",
+    "vue-resource": "^1.3.4",
     "vue-router": "^2.3.1",
-    "vuetify": "^0.16.4"
+    "vuefire": "^1.4.4",
+    "xml-parser": "^1.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -58,7 +64,6 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "0.0.31",
     "karma-webpack": "^2.0.2",
-    "lolex": "^2.0.0",
     "mocha": "^3.2.0",
     "chai": "^3.5.0",
     "sinon": "^2.1.0",
@@ -71,8 +76,6 @@
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^2.0.0",
     "ora": "^1.2.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
     "rimraf": "^2.6.0",
     "url-loader": "^0.5.8",
     "vue-loader": "^12.1.0",
