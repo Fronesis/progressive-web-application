@@ -9,7 +9,7 @@
       <span class="mdl-layout-title">CropChat</span>
       <nav class="mdl-navigation">
         <router-link class="mdl-navigation__link" to="/" @click.native="hideMenu">Home</router-link>
-        <router-link class="mdl-navigation__link" to="/post" @click.native="hideMenu">Post a picture</router-link>
+        <router-link class="mdl-navigation__link" to="/post" @click.native="hideMenu">Post a contact</router-link>
       </nav>
     </div>
     <main class="mdl-layout__content">
@@ -36,5 +36,7 @@
 
 <style>
   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-  @import url('https://code.getmdl.io/1.2.1/material.blue-red.min.css');
+  @import url('https://code.getmdl.io/1.2.1/material.blue-red.min.css'); 
+  @import url('https://unpkg.com/vuetify/dist/vuetify.min.css');
+	@import './stylus/estilos.css';
 </style>
