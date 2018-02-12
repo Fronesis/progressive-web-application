@@ -7,8 +7,6 @@ import App from './App'
 import router from './router'
 import { database } from '@/services/firebase'
 import VueAnalytics from 'vue-analytics'
-import Vuetify from 'vuetify'
-import VeeValidate from 'vee-validate'
 
 Vue.use(Vuefire)
 Vue.use(VueResource)
@@ -17,8 +15,6 @@ Vue.use(VueAnalytics, {
   router
 })
 Vue.config.productionTip = false
-Vue.use(Vuetify)
-Vue.use(VeeValidate)
 
 /* eslint-disable no-new */
 new Vue({
